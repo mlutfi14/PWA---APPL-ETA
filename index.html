@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Kira Hari Kelewatan</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        background-color: lightblue;
+        text-align: center;
+    }
+    h1 {
+        color: navy;
+    }
+</style>
+</head>
+<body>
+  <h1>Kira Hari Kelewatan Hantar Item APPL</h1>
+
+  <label>Tarikh LPO:
+    <input type="date" id="lpoDate">
+  </label><br><br>
+
+  <label>Tarikh Terima Barang:
+    <input type="date" id="receivedDate">
+  </label><br><br>
+
+  <button onclick="kiraKelewatan()">Kira</button>
+
+  <p id="result"></p>
+
+  <label>Unit Farmasi Logistik, PKDAG</label>
+  <script src="/PWA---APPL-ETA/app.js"></script>
+</body>
+</html>
